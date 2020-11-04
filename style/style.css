@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    margin-top: 60px;/*50*/
+    padding: 0;
+    background: #222222;
+    font-family: 'Comfortaa';
+    font-weight: 1000;
+}
+
+.field{
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333333;
+}
+
+.excel{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+#score{
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    width: 320px;
+    height: 120px;
+    font-size: 40px;
+    color: #444444;
+}
+
+#pause{
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(../img/pause.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+}
+
+#pause:hover{
+    background-image: url(../img/pause-hover.png);
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    color: #444444;
+    line-height: 60px;
+}
+
+span{
+    color: #CC3366;
+    font-size: 70px;
+}
+
+#again{
+    display: none;
+    position: absolute;
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+}
+
+#againBtn{
+    padding-top: 0px;
+    margin: 0 auto;
+    margin-top: 115px;
+    text-align: center;
+    background-image: url(../img/again.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 110px;
+    height: 110px;
+}
+
+#againBtn:hover{
+    background-image: url(../img/again-hover.png);
+}
+
+.snake-body{
+    background-image: url(../img/body.png);
+    background-size: cover;
+}
+
+.snake-head{
+    background-image: url(../img/head.png);
+    background-size: cover;
+}
+
+.snake-tail{
+    background-image: url(../img/tail.png) !important ;
+    background-size: cover;
+}
+
+.snake-angle{
+    background-image: url(../img/angle.png);
+    background-size: cover;
+}
+
+.food{
+    background-image: url(../img/food.png);
+    background-size: cover;
+}
